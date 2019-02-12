@@ -9,6 +9,8 @@ public:
 	person();
 	~person();
 
+	string name;
+
 	void setRace(string raceName, int str, int dex, int inte, int cons);
 
 	void printStats();

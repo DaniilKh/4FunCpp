@@ -3,13 +3,17 @@
 
 #include "stdafx.h"
 #include "person.h"
+#include "mainMenu.h"
 #include <iostream>
 #include <conio.h>
 
 
 int main()
 {
-	int race;
+
+	mainMenu menu;
+
+	/*int race;
 
 	person pers;
 
@@ -36,7 +40,7 @@ int main()
 	std::cout << pers.getRace() << "\n";
 
 	pers.printStats();
-
+	*/
 	std::cout << "Press any key to exit..." << "\n";
 	getch();
 		

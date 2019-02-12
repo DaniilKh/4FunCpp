@@ -33,9 +33,9 @@ int main()
 		break;
 	}
 
-	std::cout << pers.raceName << "\n";
+	std::cout << pers.getRace() << "\n";
 
-	pers.getStats();
+	pers.printStats();
 
 	std::cout << "Press any key to exit..." << "\n";
 	getch();

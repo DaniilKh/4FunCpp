@@ -11,11 +11,20 @@ public:
 
 	void setRace(string raceName, int str, int dex, int inte, int cons);
 
-	void getStats();
+	void printStats();
+	int getStat(string statName);
+	string getRace();
+
+	void printAttributes();
+
 
 	int test = 43;
 
+private:
 	string raceName;
 	map <string, int> stats;
+	map <string, int> attributes;
+
+	void calculateAttributes();
 };
 
